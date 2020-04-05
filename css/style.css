@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+   font-family: 'Oxygen',
+   sans-serif;
+}
+
+
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    
+}
+header{
+    background-color: #084177;
+    height: 70px;
+box-shadow: -8px 18px 21px -2px rgba(0, 133, 250, 1);
+}
+
+nav{
+    padding-top: 18px;
+    margin-right: 80px;
+}
+
+.list{
+    margin-top: 0;
+    list-style: none;
+    float: right;
+}
+
+.item{
+    display: inline-block;
+    margin-right: 20px;
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+
+
+/***********************************Home Section**********************************/
+
+.home-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url(../img/low-angle-photo-of-four-high-rise-curtain-wall-buildings-830891.jpg);
+
+    color: white;
+    padding:50px 100px 80px;
+}
+
+.home-container{
+    max-width: 400px;
+    display: inline-block;
+}
+
+.home-container h2{
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 35px;
+    color: #f9f6f7;
+}
+
+.home-container p{
+    font-size: 18px;
+    line-height: 1.7;
+    
+    
+}
+.sendmessage-form{
+    background-color: #084177;
+    padding: 0px 25px 25px;
+    float: right;
+    font-family: 'Baloo 2',
+    cursive;
+    border-radius: 3%;
+
+box-shadow: -8px -7px 17px -7px rgba(0, 133, 250, 1);
+}
+
+.sendmessage-form h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Noto Sans',
+    sans-serif;
+
+}
+
+.sendmessage-form label{
+  padding: 10px 0;
+}
+
+.sendmessage-form input{
+    display: block;
+    width: 255px;
+    margin-bottom: 10px;
+}
+
+
+.sendmessage-form textarea{
+    display: block;
+}
+
+/*
+.signup-form button{
+    text-align: center;
+    
+}
+*/
+
+.sendmessage-button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sendmessage-button button{
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+    background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color:#eae0c2;
+    border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+
+
+/********************************About Section************************************/
+
+
+.about-section{
+    margin: 30px 100px;
+    padding: 30px;
+    background-color: #f9f6f7;
+    box-shadow: -8px 18px 21px -2px rgba(237, 239, 240, 1);
+}
+
+.about-container{
+    max-width: 400px;
+    display: inline-block;
+}
+
+.about-container h3{
+    font-size: 27px;
+}
+
+.about-container p{
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.skills-container{
+    float: right;
+    width: 400px;
+}
+
+.skills-container h3{
+    font-size: 27px;
+}
+.skills li{
+    list-style: none;
+}
+
+.readmore-button{
+box-shadow: 0px 1px 0px 0px #1c1b18;
+background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+background-color:#eae0c2;
+border-radius:15px;
+border:2px solid #333029;
+display:inline-block;
+cursor:pointer;
+color:#505739;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+padding:12px 16px;
+text-decoration:none;
+text-shadow:0px 1px 0px #ffffff;
+}
+
+.bar {
+    display: block;
+    background: #353b48;
+    
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background: #3fc5f0;
+}
+
+.html {
+    width: 90%;
+    animation: html 2s;
+}
+
+.css {
+    width: 85%;
+    animation: css 2s;
+}
+
+.jquery {
+    width: 75%;
+    animation: jquery 2s;
+}
+
+.javascript {
+    width: 60%;
+    animation: javascript 2s;
+}
+
+.python {
+    width: 50%;
+    animation: python 2s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes jquery {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+
+/**************************Services Section*****************/
+.services-section{
+    margin: 30px 70px;
+}
+
+
+.first-container{
+    display: inline-block;
+}
+
+.second-container{
+    float: right;
+}
+
+.service-description{
+    max-width: 450px;
+}
+
+.service-icon {
+    position: relative;
+    bottom: 70px;
+    margin: 0 15px;
+}
+
+.service{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.first-container div, .second-container div{
+            box-shadow: -8px 18px 21px -2px rgba(237, 239, 240, 1);
+
+}
+
+
+
