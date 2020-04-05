@@ -313,4 +313,176 @@ text-shadow:0px 1px 0px #ffffff;
 }
 
 
+/******************************Pricing Section***********************************/
 
+.pricing-section{
+    margin: 60px;
+    color: white;
+    
+    text-align: center;
+}
+.first-offer{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url(../img/first-pricing-image.jpg);
+    background-repeat: no-repeat;
+
+    display: inline-block;
+    width: 300px;
+
+    
+    padding: 20px 0;
+    margin: 0 40px;
+}
+
+
+
+.second-offer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url(../img/second-pricing-image.jpg);
+    background-repeat: no-repeat;
+
+    display: inline-block;
+    width: 300px;
+
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 40px;
+}
+
+.third-offer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url(../img/third-pricing-image.jpg);
+    background-repeat: no-repeat;
+
+    display: inline-block;
+    width: 300px;
+
+    
+    padding: 20px 0;
+    margin: 0 40px;
+}
+
+
+.offer-heading{
+    font-size: 24px;
+}
+.pricing-item{
+   display: inline-block;   
+}
+
+.feature p{
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 3px;
+}
+
+.buy-button{
+    box-shadow:inset 0px -3px 7px 0px #090a0a;
+    background:linear-gradient(to bottom, #0a0a0a 5%, #2f3438 100%);
+    background-color:#0a0a0a;
+    border-radius:3px;
+    border:1px solid #0b0e07;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:9px 23px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+}
+
+
+/********************************Team Section**********************************/
+
+
+.team-section{
+    text-align: center;
+
+}
+
+.member{
+    box-shadow: 2px -2px 17px -7px rgba(0, 133, 250, 1);
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.member img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.member h3{
+    color: #3fc5f0;
+    font-size: 26px;
+}
+.member p{
+    max-width: 300px;
+}
+
+
+/***********************Contact Section********************/
+
+
+.contact-section{
+    text-align: center;
+}
+
+.contact-first-part{
+    display: inline-block;
+    padding-bottom: 100px;
+}
+
+
+
+.contact-second-part{
+    display: inline-block;
+    
+}
+
+.contact-detail{
+    padding: 5px;
+}
+
+
+.contact-detail input{
+    width: 370px;
+    height: 50px;
+    
+}
+
+.contact-icon{
+    height: 52px;
+    width: 52px;
+    position: relative;
+    top: 12px;
+    left: 4px;
+    background-color: #ccc2a6;
+    padding: 2px;
+    
+}
+
+
+.contact-second-part textarea{
+    display: block;
+    position: relative;
+    top: 20px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-button{
+    width: 421px;
+    height: 42px;
+    padding-bottom: 8px;
+    font-family: 'Baloo 2',cursive;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    font-size: 24px;
+    background-color: #eae0c2;
+}
