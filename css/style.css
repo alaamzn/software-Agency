@@ -552,7 +552,7 @@ nav {
         padding-top: 30px;
         margin: 30px 0 20px 20px;
         font-size: 40px;
-
+     
     }
     
     header {
@@ -611,7 +611,7 @@ nav {
         display: none;
     }
 
-    /**************** Services Section **************/
+    /**************** About Section **************/
     
    .about-section {
        margin: 20px 0px;
@@ -666,7 +666,7 @@ nav {
    
 
    .service-description {
-       width: 250px;
+       width: 230px;
        font-size: 17px;
    }
 
@@ -752,5 +752,50 @@ nav {
     /********************** Footer Section *****************/
     .footer-section{
         width: 440px;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .section-title {
+        padding-top: 30px;
+        margin: 30px 0 20px 80px;
+        font-size: 40px;
+
+    }
+    
+    
+    .services-section{
+        width: 380px;
+    }
+
+    
+
+    .service-heading {
+        font-size: 30px;
+    }
+
+
+
+    .service-description {
+        width: 200px;
+    }
+
+    .service-icon {
+        
+        margin: 0 20px;
+    }
+
+    .team-section {
+        margin: 40px 10px 40px 50px;
+    }
+
+    .member {
+
+        
+        padding: 10px;
+        margin: 20px;
+        width: 280px;
     }
 }
