@@ -159,18 +159,6 @@ nav {
     line-height: 1.7;
 }
 
-.skills-container {
-    float: right;
-    width: 400px;
-}
-
-.skills-container h3 {
-    font-size: 27px;
-}
-
-.skills li {
-    list-style: none;
-}
 
 .readmore-button {
     box-shadow: 0px 1px 0px 0px #1c1b18;
@@ -188,6 +176,22 @@ nav {
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffffff;
 }
+
+
+.skills-container {
+    float: right;
+    width: 400px;
+}
+
+.skills-container h3 {
+    font-size: 27px;
+}
+
+.skills li {
+    list-style: none;
+}
+
+
 
 .bar {
     display: block;
@@ -538,4 +542,215 @@ nav {
     background-color: #eae0c2;
     font-family: 'Baloo 2',
         cursive;
+}
+
+/*************Media Queries******************/
+
+
+@media (max-width: 768px){
+    .section-title {
+        padding-top: 30px;
+        margin: 30px 0 20px 20px;
+        font-size: 40px;
+
+    }
+    
+    header {
+        height: 120px;
+        width: 440px;
+        text-align: center;
+    }
+
+    nav {
+        padding-top: 22px;
+        margin-right: 0;
+    }
+
+    .list {
+        margin-top: 20px;
+        padding-right: 20px;
+    }
+
+    .item {
+
+        margin-right: 10px;
+    }
+
+    
+
+    /*****************Home Section ***************/
+    .home-section {
+        
+                width: 240px;
+            background-repeat: no-repeat;
+            padding-bottom: 50px;
+            text-align: left;
+
+                padding: 50px 150px 20px 50px;
+
+    }
+    
+    .home-container{
+        width: 320px;
+        text-align: left;
+    }
+
+    .home-container h2 {
+        padding-top: 0px;
+        font-size: 40px;
+        
+    }
+
+
+    .home-container p {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    .sendmessage-form{
+        display: none;
+    }
+
+    /**************** Services Section **************/
+    
+   .about-section {
+       margin: 20px 0px;
+       padding: 0px;
+       text-align: left;
+       width: 420px;
+   }
+
+   .about-container {
+       width: 200px;
+       padding-bottom: 20px;
+       margin-left: 20px;
+       padding-right: 0;
+       margin-right: 0;
+   }
+
+   .about-container h3 {
+       font-size: 30px;
+   }
+
+   .about-container p {
+       font-size: 21px;
+       line-height: 1.5;
+       width: 400px;
+   }
+
+   
+
+   .skills-container h3 {
+       font-size: 33px;
+   }
+
+   /******************** Services Section**************/
+
+   .services-section {
+       margin-right: 10px;
+       margin-left: 10px;
+  
+    }
+   .first-container {
+    display: block;
+}
+
+   .second-container {
+       display: block;
+   }
+
+   .service-heading{
+       font-size: 25px;
+   }
+
+   
+
+   .service-description {
+       width: 250px;
+       font-size: 17px;
+   }
+
+   .service-icon {
+       position: relative;
+       bottom: 150px;
+       margin: 0 15px;
+   }
+
+   .service {
+       display: inline-block;
+       padding-left: 20px;
+   }
+   
+
+   /*************************Pricing Section**************/
+
+
+        .pricing-section {
+            margin: 40px 10px 40px 30px;
+            
+        }
+    
+    .first-offer, .second-offer, .third-offer{
+        margin-bottom: 20px;
+    }    
+   
+    /*************** Team Section**************/
+    .team-section{
+        margin: 40px 10px 40px 50px;
+    }
+    .member {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+    }
+
+
+
+    /*****************Contact Section *********/
+     
+    .contact-section{
+        margin-bottom: 50px;
+    }
+    .contact-first-part {
+        display: block;
+        padding-bottom: 50px;
+        width: 440px;
+    }
+
+
+
+    .contact-second-part {
+        display: block;
+        width: 440px;
+    }
+
+    .contact-detail {
+        padding: 5px;
+    }
+
+
+    .contact-detail input {
+        width: 350px;
+        
+        text-align: center;
+    }
+
+    .contact-second-part textarea {
+        left: 20px;
+        border: 1px solid grey;
+    }
+
+    .contact-button {
+        width: 415px;
+        
+        left: 5px;
+        
+    }
+    
+
+    /********************** Footer Section *****************/
+    .footer-section{
+        width: 440px;
+    }
 }
